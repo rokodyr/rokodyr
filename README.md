@@ -1,16 +1,32 @@
-## Hi there 👋
+```js
+const roko = {
+  role: [
+    "Social Engineer",
+    "Reverse Engineer",
+    "Exploit Developer"
+  ],
+  focus: "Offensive Security",
+  location: "Turkey",
 
-<!--
-**rokodyr/rokodyr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  stack: {
+    core: ["C", "C++", "C#", "Rust"],
+    scripting: ["Python", "Ruby", "PHP"],
+    backend: ["JavaScript (Node.js)", "Go"],
+    systems: ["Linux", "Networking", "Memory & Process Internals"],
+    security: [
+      "Offensive Security",
+      "OSINT & Reconnaissance",
+      "Reverse Engineering",
+      "Exploit Development",
+      "Human-based Attacks",
+      "Attack Surface Analysis"
+    ]
+  },
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  about: `
+Focused on offensive security through analysis of system internals
+and human-driven attack vectors. Concentrated on social engineering,
+reverse engineering, and exploit development with a low-level,
+system-first approach.
+`
+};
