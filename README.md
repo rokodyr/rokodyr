@@ -6,7 +6,7 @@ const roko = {
     "Exploit Developer"
   ],
   focus: "Offensive Security",
-  location: "Turkey",
+  location: "Internet",
 
   stack: {
     core: ["C", "C++", "C#", "Rust"],
